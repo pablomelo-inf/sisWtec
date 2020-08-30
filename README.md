@@ -1,5 +1,10 @@
 ### Estrutura do projeto
 
+
+System for management to one physical market.
+Contain the main concepts the paradigm language program Orient Object in Java.
+
+
 - Diagrama Classes
 - Diagrama Entidade Relacionamento
 
