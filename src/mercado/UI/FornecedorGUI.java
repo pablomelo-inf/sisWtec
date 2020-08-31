@@ -6,6 +6,7 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import mercado.DAO.FornecedorDAO;
+import mercado.Helpers.Helpers;
 import mercado.Modelo.Fornecedor;
 
 
@@ -226,8 +227,9 @@ public class FornecedorGUI extends JDialog{
     }//GEN-LAST:event_jTenderecoActionPerformed
 
     private void jBCadastraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCadastraActionPerformed
-             Fornecedor fornecedor = new Fornecedor();            
-                  if(fornecedor.validaCnpj(jTCnpj.getText())){
+             Fornecedor fornecedor = new Fornecedor();   
+             Helpers helpers = new Helpers();
+                  if(helpers.validaCnpj(jTCnpj.getText())){
                      fornecedor.setNome(jTnome.getText());
                      fornecedor.setCnpj(jTCnpj.getText());
                      fornecedor.setCnpj(jTCnpj.getText());

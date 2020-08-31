@@ -30,11 +30,11 @@ public class JFprincipal extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Sistema de Gerenciamento de Vendas - MERCADO");
+        setTitle("Wtec");
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Painel de Controle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 10), new java.awt.Color(153, 153, 153))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Wtec - Resources", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(153, 153, 153)));
 
-        jLabel6.setText("Produtos");
+        jLabel6.setText("Products/Services");
 
         jBVenda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/cart.png"))); // NOI18N
         jBVenda.addActionListener(new java.awt.event.ActionListener() {
@@ -57,7 +57,7 @@ public class JFprincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Vendedores");
+        jLabel4.setText("Salesman");
 
         jBclientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/cliente.png"))); // NOI18N
         jBclientes.addActionListener(new java.awt.event.ActionListener() {
@@ -66,7 +66,7 @@ public class JFprincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Venda");
+        jLabel1.setText("Sales");
 
         jBhistorico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/historico.png"))); // NOI18N
         jBhistorico.addActionListener(new java.awt.event.ActionListener() {
@@ -75,9 +75,9 @@ public class JFprincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("Clientes");
+        jLabel5.setText("Costumer");
 
-        jLabel2.setText("fornecedor");
+        jLabel2.setText("Provider");
 
         jBproduto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/produto.png"))); // NOI18N
         jBproduto.addActionListener(new java.awt.event.ActionListener() {
@@ -86,7 +86,7 @@ public class JFprincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("histórico");
+        jLabel3.setText("Historic");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -96,21 +96,21 @@ public class JFprincipal extends javax.swing.JFrame {
                 .addGap(22, 22, 22)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(jLabel5)
-                    .addComponent(jBclientes, javax.swing.GroupLayout.PREFERRED_SIZE, 153, Short.MAX_VALUE)
+                    .addComponent(jBclientes, javax.swing.GroupLayout.PREFERRED_SIZE, 157, Short.MAX_VALUE)
                     .addComponent(jBvendedor, 0, 0, Short.MAX_VALUE)
                     .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(jLabel1)
-                    .addComponent(jBVenda, javax.swing.GroupLayout.PREFERRED_SIZE, 153, Short.MAX_VALUE)
+                    .addComponent(jBVenda, javax.swing.GroupLayout.PREFERRED_SIZE, 157, Short.MAX_VALUE)
                     .addComponent(jBfornecedor, 0, 0, Short.MAX_VALUE)
                     .addComponent(jLabel2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(jLabel3)
-                    .addComponent(jBhistorico, javax.swing.GroupLayout.PREFERRED_SIZE, 153, Short.MAX_VALUE)
+                    .addComponent(jBhistorico, javax.swing.GroupLayout.PREFERRED_SIZE, 157, Short.MAX_VALUE)
                     .addComponent(jBproduto, 0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel6))
                 .addGap(20, 20, 20))
         );
         jPanel2Layout.setVerticalGroup(
@@ -123,13 +123,13 @@ public class JFprincipal extends javax.swing.JFrame {
                     .addComponent(jLabel1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBclientes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jBVenda)
-                    .addComponent(jBhistorico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jBclientes, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+                    .addComponent(jBhistorico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jBVenda, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jBproduto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jBproduto, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel6))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
@@ -140,7 +140,7 @@ public class JFprincipal extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
                             .addComponent(jLabel2))))
-                .addGap(50, 50, 50))
+                .addContainerGap())
         );
 
         jMenuBar1.add(jMenu1);
@@ -153,8 +153,8 @@ public class JFprincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -164,13 +164,13 @@ public class JFprincipal extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(561, 480));
+        setSize(new java.awt.Dimension(561, 447));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBVendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBVendaActionPerformed
-//        VendaGUI venda = new VendaGUI();
-//        venda.setVisible(true);
+        VendaGUI venda = new VendaGUI();
+        venda.setVisible(true);
 }//GEN-LAST:event_jBVendaActionPerformed
 
     private void jBfornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBfornecedorActionPerformed

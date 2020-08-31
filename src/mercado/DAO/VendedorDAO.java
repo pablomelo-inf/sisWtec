@@ -49,7 +49,7 @@ public class VendedorDAO {
            if(rs.next()){
               System.out.println(rs.getString("USUARIO")+ rs.getString("SENHA")); 
               rs.getString("USUARIO");
-              System.out.println(rs);
+              System.out.println(rs+"dddd");
                       rs.getString("SENHA");
               
               return true;
@@ -59,7 +59,7 @@ public class VendedorDAO {
            }
            
          }catch(SQLException v){
-           throw new RuntimeException();
+            throw new RuntimeException();
          }
     }
 
