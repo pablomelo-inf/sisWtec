@@ -10,7 +10,7 @@
 
 ## About the SisWtec
 SisWtec is a solution for managment sales and costumer in a Physical Stores.
-## Customer challenges:
+## Customer challenges
 1. The Salles aren't automatized. All are anoted in notepad manually.
 2. The products are in a catalogue noted.
 3. The customer speend lot time for manage stock manually.
@@ -38,16 +38,19 @@ SisWtec is a solution for managment sales and costumer in a Physical Stores.
 
 ## Source Code Structure (in Java)
 - Main Packages
-- 1 - *(DAO)* Data Access Object 
+1. **(DAO)** Data Access Object 
        provides an abstract interface for Database Management.
-       - src/mercado/DAO
        
-- 2 -  *Modelo* - Model:
+       src/mercado/DAO
+       
+2. **Modelo** - Model
        responsible for managing the data the application.
-       - src/mercado/Modelo
        
-- 3 -  *UI* - Graphical User Interface
+       src/mercado/Modelo
+       
+3. **UI** - Graphical User Interface
        responsible interact with user through visual resources, also get input for processing and return results.
-       - src/UI
+       
+       src/mercado/UI
 
 
