@@ -11,11 +11,11 @@
 ## About the SisWtec
 SisWtec is a solution for managment sales and costumer in a Physical Stores.
 ## Customer challenges:
-1 - The Salles aren't automatized. All are anoted in notepad manually.
-2 - The products are in a catalogue noted.
-3 - The customer speend lot time for manage stock manually.
+1. The Salles aren't automatized. All are anoted in notepad manually.
+2. The products are in a catalogue noted.
+3. The customer speend lot time for manage stock manually.
 
-## The Wtec propose solve this these challenges with functions:
+## The Wtec propose solve this these challenges with functions
 * Managment costumer.
 * Staff Controll (i.e Salesmans).
 * Sales Monitoring.
